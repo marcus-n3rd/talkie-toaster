@@ -10,6 +10,7 @@ langchain = "*"
 langchain-community = "*"
 watchdog = "*"
 pyyaml = "*"
+autopep8 = "*"
 
 [dev-packages]
 

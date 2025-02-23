@@ -30,4 +30,5 @@ if prompt := st.chat_input():
     response = chain.invoke({"prompt": prompt})
 
     st.chat_message("assistant").write(response)
-    st.session_state["messages"].append({"role": "assistant", "content": response})
+    st.session_state["messages"].append(
+        {"role": "assistant", "content": response})
